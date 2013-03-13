@@ -1,1 +1,6 @@
-swedish extensions for the faker module
+
+#Swedish extensions for the Faker Module
+
+## TODO
+* Add postal codes
+* Add City Names
