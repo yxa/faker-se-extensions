@@ -1,0 +1,26 @@
+{
+  "author": "torbjorn josefsson <torbjorn.josefsson@gmail.com> (yxa.github.com)",
+  "name": "faker-se-extensions",
+  "description": "swedish extensions for the faker module",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+                      "type": "git",
+                      "url": "git://github.com/yxa/urlshortener"
+  },
+
+  "private": true,
+
+  "scripts": {
+                      "test": "./bin/test"
+   },
+  "dependencies": {
+                      "Faker": "*",
+                      "coffee-script": "*"
+  },
+  "devDependencies" :{
+                     "mocha": ">= 1.8.2",
+                     "chai":  ">=1.5.0"
+  }
+
+} 

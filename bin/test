@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+MOCHA_ARGS=""
+if [ -n "$*" ]; then
+  MOCHA_ARGS=$*
+else
+  MOCHA_ARGS="--compilers coffee:coffee-script
+              --reporter spec
+              --require coffee-script 
+              --require test/helper.coffee
+              --colors"
+fi
+
+./node_modules/mocha/bin/mocha $MOCHA_ARGS
